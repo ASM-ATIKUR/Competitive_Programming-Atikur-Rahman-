@@ -1,42 +1,58 @@
 # Competitive_Programming_Atikur_Rahman
 
+---
+
 This repository contains all my solution of problems for different ONLINE JUDGES.
 
+---
 
 
-#Online Judges ID links:
+ #### Online Judges ID links:
+ *
 
-Stopstalk: https://www.stopstalk.com/user/profile/asmatikur
+	* [ __Stopstalk__ ]( https://www.stopstalk.com/user/profile/asmatikur )
 
-Leet Code: https://leetcode.com/ASM_ATIKUR/
+	* [__Leet Code__](https://leetcode.com/ASM_ATIKUR/)
 
-Codeforces: https://codeforces.com/profile/ASM_ATIKUR
+	* [__Codeforces__](https://codeforces.com/profile/ASM_ATIKUR)
 
-Codechef: https://www.codechef.com/users/asmatikur
+	* [__Codechef__](https://www.codechef.com/users/asmatikur)
 
-Atcoder: https://atcoder.jp/users/asmatikur
+	* [__Atcoder__](https://atcoder.jp/users/asmatikur)
 
-UVA: 955748
+	* __UVA: 955748__
 
-LightOJ:
+	* [__LightOJ__](https://lightoj.com/user/atikur-ice18)
 
-Hacker Rank: https://www.hackerrank.com/ASM_ATIKUR
+	* [__Hacker Rank__](https://www.hackerrank.com/ASM_ATIKUR)
 
-Hacker Earth: https://www.hackerearth.com/@ASM_ATIKUR
+	* [__Hacker Earth__](https://www.hackerearth.com/@ASM_ATIKUR)
 
-SOPJ: ASM_ATIKUR
+	* __SOPJ: ASM_ATIKUR__
 
-URI: https://www.urionlinejudge.com.br/judge/en/profile/256852
+	* [__URI__](https://www.urionlinejudge.com.br/judge/en/profile/256852)
 
-Timus: https://acm.timus.ru/author.aspx?id=273649
+	* [__Timus__](https://acm.timus.ru/author.aspx?id=273649)
 
-Devskill: https://www.devskill.com/Home/PublicProfile/ASM_ATIKUR
+	* [__Devskill__](https://www.devskill.com/Home/PublicProfile/ASM_ATIKUR)
 
-Topcoder: https://www.topcoder.com/members/ASM_ATIKUR
+	* [__Topcoder__](https://www.topcoder.com/members/ASM_ATIKUR)
 
-Codemarshal: https://algo.codemarshal.org/users/asmatikur
+	* [__Codemarshal__](https://algo.codemarshal.org/users/asmatikur)
 
-Toph: https://toph.co/u/ASM_ATIKUR
+	* [__Toph__](https://toph.co/u/ASM_ATIKUR)
+	
+
+---
+	
+
+*_Atikur Rahman_*
+
+*_Information and Communication Engineering_*
+
+*_University of Rajshahi_* 
+
+*_atikur.ice18@gmail.com_*
 
 
 
