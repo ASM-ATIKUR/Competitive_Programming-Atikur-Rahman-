@@ -6,21 +6,23 @@ This repository contains all my solution of problems for different ONLINE JUDGES
 
 #Online Judges ID links:
 
-Leet Code:
+Stopstalk: https://www.stopstalk.com/user/profile/asmatikur
+
+Leet Code: https://leetcode.com/ASM_ATIKUR/
 Codeforces: https://codeforces.com/profile/ASM_ATIKUR
-Codechef: 
-Atcoder:
-UVA:
+Codechef: https://www.codechef.com/users/asmatikur
+Atcoder: https://atcoder.jp/users/asmatikur
+UVA: 955748
 LightOJ:
-Hacker Rank: 
-Hacker Earth:
+Hacker Rank: https://www.hackerrank.com/ASM_ATIKUR
+Hacker Earth: https://www.hackerearth.com/@ASM_ATIKUR
 SOPJ:
-URI:
-Timus:
+URI: https://www.urionlinejudge.com.br/judge/en/profile/256852
+Timus: https://acm.timus.ru/author.aspx?id=273649
 Devskill:
-Topcoder:
-Codemarshal: 
-Toph:
+Topcoder: https://www.topcoder.com/members/ASM_ATIKUR
+Codemarshal: https://algo.codemarshal.org/users/asmatikur
+Toph: https://toph.co/u/ASM_ATIKUR
 
 
 
