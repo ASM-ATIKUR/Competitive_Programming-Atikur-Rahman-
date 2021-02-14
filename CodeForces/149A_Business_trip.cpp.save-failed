@@ -1,0 +1,27 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main(void)
+{
+    int k, sum=0;
+    int ara[13];
+
+    for(int i=0; i<12; i++)
+    {
+        scanf("%d", &ara[i]);
+    }
+    sort(ara, ara+12);
+    for(int i=11; i>=0; i--)
+    {
+        if(sum>=k)
+        {
+            printf("%d\n", i);
+        }
+        else
+        {
+            sum+=ara[i];
+        }
+        printf("%d\n", sum);
+    }
+    return 0;
+}

@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main()
+{
+    int ara[10], n, i;
+
+    scanf("%d", &n);
+
+    for(i=0; i<10; i++, n*=2)
+    {
+        ara[i]=n;
+        printf("N[%d] = %d\n", i, ara[i]);
+    }
+
+    return 0;
+}

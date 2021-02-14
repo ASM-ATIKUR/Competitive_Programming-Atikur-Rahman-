@@ -1,0 +1,39 @@
+#include <stdio.h>
+
+int main()
+{
+    int a[200009], b[200009], flag[200005]={0}, j, n, i, cnt=0;
+    scanf("%d", &n);
+
+    for(i=0; i<n; i++)
+    {
+        scanf("%d", &a[i]);
+    }
+    for(i=0; i<n; i++)
+    {
+        scanf("%d", &b[i]);
+    }
+    for(i=0; i<n; i++)
+    {
+        if(flag[i]==0)
+        {
+            cnt=0;
+            for(j=0; j<n; j++)
+            {
+                if(a[i]==b[i])
+                {
+                    printf("%d ", ++cnt);
+                    break;
+                }
+                else
+                {
+                    flag[a[i]]=1;
+                    cnt++;
+                }
+            }
+        }
+        else printf("0 ");
+    }
+
+    return 0;
+}

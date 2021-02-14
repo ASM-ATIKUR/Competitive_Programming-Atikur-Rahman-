@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main()
+{
+    int n, po=0, count=0, a;
+    scanf(" %d", &n);
+    while(n--)
+    {
+        scanf(" %d", &a);
+        if(a<0) {
+            count+=po+a;
+        }
+        else po+=a;
+    }
+    printf("%d\n", count);
+
+    return 0;
+}
