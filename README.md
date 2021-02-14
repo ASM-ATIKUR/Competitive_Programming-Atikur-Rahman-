@@ -24,7 +24,7 @@ Hacker Rank: https://www.hackerrank.com/ASM_ATIKUR
 
 Hacker Earth: https://www.hackerearth.com/@ASM_ATIKUR
 
-SOPJ:
+SOPJ: ASM_ATIKUR
 
 URI: https://www.urionlinejudge.com.br/judge/en/profile/256852
 
