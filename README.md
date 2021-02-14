@@ -8,9 +8,8 @@ This repository contains all my solution of problems for different ONLINE JUDGES
 
 
  #### Online Judges ID links:
- *
-
-	* [ __Stopstalk__ ]( https://www.stopstalk.com/user/profile/asmatikur )
+ * 
+	* [__Stopstalk__](https://www.stopstalk.com/user/profile/asmatikur)
 
 	* [__Leet Code__](https://leetcode.com/ASM_ATIKUR/)
 
