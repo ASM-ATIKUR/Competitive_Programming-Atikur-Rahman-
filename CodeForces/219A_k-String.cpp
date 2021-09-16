@@ -4,44 +4,44 @@
 ***/
 
 //#include <bits/stdc++.h>
-#include <iostream>
-#include <stdio.h>
-#include <stdlib.h>
-#include <math.h>
-#include <cstring>
-#include <cctype>
-#include <time.h>
-#include <climits>
-#include <vector>
-#include <string>
-#include <stack>
-#include <queue>
-#include <map>
-#include <unordered_map>
-#include <set>
-#include <unordered_set>
-#include <bitset>
-#include <utility>
-#include <iterator>
-#include <algorithm>
-#include <cassert>
-#include <iomanip> ///setprecision
+#include<iostream>
+#include<stdio.h>
+#include<stdlib.h>
+#include<math.h>
+#include<cstring>
+#include<cctype>
+#include<time.h>
+#include<climits>
+#include<vector>
+#include<string>
+#include<stack>
+#include<queue>
+#include<map>
+#include<unordered_map>
+#include<set>
+#include<unordered_set>
+#include<bitset>
+#include<utility>
+#include<iterator>
+#include<algorithm>
+#include<cassert>
+#include<iomanip> ///setprecision
 
 
 #define fastIO ios_base::sync_with_stdio(false);cin.tie(nullptr);cout.tie(nullptr);
 #define Filein(N) freopen("N", "r", stdin);
 #define Fileout(N) freopen("N", "w", stdout);
-#define scint(x) scanf("%d%*c", &(x))
-#define scint2(x,y) scanf("%d%*c%d%*c", &(x), &(y))
-#define scint3(x,y,z) scanf("%d%*c%d%*c%d%*c", &(x), &(y), &(z))
+#define sci(x) scanf("%d%*c", &(x))
+#define sci2(x,y) scanf("%d%*c%d%*c", &(x), &(y))
+#define sci3(x,y,z) scanf("%d%*c%d%*c%d%*c", &(x), &(y), &(z))
 #define scll(x) scanf("%lld%*c", &(x))
 #define scll2(x,y) scanf("%lld%*c%lld%*c", &(x), &(y))
 #define scll3(x,y,z) scanf("%lld%*c%lld%*c%lld%*c", &(x), &(y), &(z))
 #define scd(x) scanf("%lf%*c", &(x))
 #define scd2(x,y) scanf("%lf%*c%lf%*c", &(x), &(y))
 #define scstr(x) scanf("%s", x)
-#define pfint(x) printf("%d", (x))
-#define pfint2(x,y) printf("%d %d", (x), (y))
+#define pfi(x) printf("%d", (x))
+#define pfi2(x,y) printf("%d %d", (x), (y))
 #define pfll(x) printf("%lld", (x))
 #define pfll2(x,y) printf("%lld %lld", (x), (y))
 #define pfd(x) printf("%f", (x))
@@ -55,7 +55,7 @@
 #define trav(a,x) for (auto &a : x)
 #define Ms(ara, val) memset(ara, val, sizeof(ara))
 #define TestCase int testcase, cs=1; cin>>testcase;while(testcase--)
-#define pfintara(namezeze,szszs,nznzn) for(int azaza=szszs; azaza<nznzn; azaza++){ printf("%d ", namezeze[azaza]); }pn;
+#define pfiara(namezeze,szszs,nznzn) for(int azaza=szszs; azaza<nznzn; azaza++){ printf("%d ", namezeze[azaza]); }pn;
 #define pfllara(namezeze,szszs,nznzn) for(int azaza=szszs; azaza<nznzn; azaza++){ printf("%lld ", namezeze[azaza]); }pn;
 
 #define All(V) V.begin(), V.end()
@@ -68,7 +68,7 @@
 #define lb lower_bound
 #define ub upper_bound
 
-#define Ceil(a,b) (((a)+(b)-1)/(b))
+#define Ceil(a,b) (((a)/(b))+(((a)%(b))!=0))
 #define Sq(a) ((a)*(a))
 
 #define P(x) cout<<"Check X: "<<x;
@@ -78,17 +78,16 @@
 using namespace std;
 
 using ll=long long;
-using pint= pair<int,int>;
+using pii= pair<int,int>;
 using pll= pair<long long, long long>;
 using pcc= pair<char, char>;
 using pdd= pair<double, double>;
 
 #define V(a) vector<a>
-using vint= vector<int>;
+using vi= vector<int>;
 using vs= vector<string>;
 using vll= vector<ll>;
-using vpint= vector<pint>;
-using vpll= vector<pll>;
+using vpii= vector<pii>;
 using vc= vector<char>;
 using vd= vector<double>;
 
@@ -140,8 +139,8 @@ template <typename T> T Sqrt(T a) { T x=(T)sqrt(a); if((x+1)*(x+1)==a) x++; retu
 #define LINF 4000000000000000444
 #define PI  (2*acos(0.0))
 
-#define Mod 1000000007  // 1e9+7
-#define MX 2000456
+#define Mod 1000000007
+#define MX 1000456
 
 
 
@@ -150,7 +149,33 @@ template <typename T> T Sqrt(T a) { T x=(T)sqrt(a); if((x+1)*(x+1)==a) x++; retu
 
 int main( int argc, char *argv[] )
 {
-    ;
+    int k,cnt[30]={0};
+    string s,ans;
+    cin>>k>>s;
+    trav(x,s)
+    {
+        cnt[x-'a']++;
+    }
+
+    for(int i=0; i<26; i++)
+    {
+        if(cnt[i]%k==0 && cnt[i])
+        {
+            for(int j=0; j<cnt[i]/k; j++)
+            {
+                ans+='a'+i;
+            }
+        }
+        else if (cnt[i]){
+            pfi(-1);
+            pn;return 0;
+        }
+    }
+    for(int i=0; i<k; i++)
+    {
+        cout<<ans;
+    }
+    pn;
 
 
 
@@ -164,6 +189,8 @@ int main( int argc, char *argv[] )
 
     return 0;
 }
+
+
 
 
 
